@@ -5,7 +5,7 @@ const typoAssets = {
   title: {
     component: "h1",
     family: "CeraGR-Bold",
-    size: 100,
+    size: 48,
     height: 56,
   },
   subject_title: {
