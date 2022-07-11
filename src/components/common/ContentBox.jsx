@@ -222,7 +222,7 @@ export const ContentBox2 = props => {
         icon={categoryItemData.data.icon.url}
         index={0}
         {...rest}
-        width={width ? width : "266px"}
+        width={width ? width : "500px"}
       >
         {/* <img className="w-100" src={resourceData.resource_photo} alt="resource" /> */}
         <GatsbyImage

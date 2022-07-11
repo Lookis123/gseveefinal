@@ -4,7 +4,7 @@ import styled from "styled-components"
 const TextContainerWrapper = styled.p`
   //styleName: Paragraph;
   font-family: "CeraGR-Regular";
-  font-size: 40px;
+  font-size: 16px;
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
@@ -13,7 +13,7 @@ const TextContainerWrapper = styled.p`
 const QuoteContainerWrapper = styled.h2`
   //styleName: Quote;
   font-family: CeraGR-RegularItalic;
-  font-size: 50px;
+  font-size: 24px;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
