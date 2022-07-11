@@ -115,6 +115,7 @@ const Generic = props => {
             </PopupContainer>
           </ListBox>
           <div className="container">
+          <SolidImagePanel photo={SolidImage} />
           </div>
           <div className="container">
             <h5 className="w-75 mx-auto">
@@ -138,16 +139,7 @@ const Generic = props => {
           </div>
           <div className="container ">
             <div className="d-flex mx-auto" style={{ marginBottom: "38px" }}>
-              <PhotoFigure
-                photo={Photo1}
-                className="w-50"
-                caption="Φόρος τιμής για το Πολυτεχνείο"
-              />
-              <PhotoFigure
-                photo={Photo2}
-                className="w-50"
-                caption="Ο Πρόεδρος της ΓΣΕΒΕΕ καταθέτει στεφάνι στο Πολυτεχνείο"
-              />
+            
             </div>
           </div>
           <div className="container">
