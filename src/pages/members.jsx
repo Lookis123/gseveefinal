@@ -12,7 +12,7 @@ import { down } from "styled-breakpoints"
 
 const testPointsData = [
   {
-    name: "Ομοσπονδία Βιοτεχνικών Σωματείων Αθήνας",
+    name: "Ομοσπονδία Βιοτεχνικών Σωματείων Αθήναςssssssss",
     info: "Πατούσα 3, 106 77 Αθήνα, Τηλ.: 210 3809327 Fax: 210 3809327",
   },
   {
@@ -135,7 +135,7 @@ const Members = props => {
       <Seo title="Members" />
       <Section className="homehero-section">
         <Container className="container">
-          <h1>Δίκτυο μελώosidosdoν</h1>
+          <h1>Δίκτυο μελών</h1>
 
           <div className="content-header">
             <div className="user-types">
