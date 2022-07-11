@@ -39,6 +39,7 @@ const VideoPanel = props => {
   const { photo, url } = props
   return (
     <VideoPanelContainer>
+      <Image src={photo} />
       {url ? (
         <VideoPlayButton onClick={() => openVideo(url)}>
           <img src={VideoPlay} alt="" />
