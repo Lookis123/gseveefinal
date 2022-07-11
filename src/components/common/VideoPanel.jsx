@@ -22,7 +22,7 @@ const VideoPlayButton = styled.button`
   transform: translateX(-50%) translateY(-50%);
 `
 const Image = styled.img`
-  width: 100%;
+  width: 600px;
   height: auto;
 `
 const openVideo = url => {}
