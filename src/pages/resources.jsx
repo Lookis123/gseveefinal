@@ -77,7 +77,7 @@ const ResourcesPage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Seo title="Resources Page" />
+      <Seo ="Resources Page" />
       <Section className="intro-section">
         <Navbar type="second" />
         <HeaderContainer className="container">
@@ -242,7 +242,7 @@ const ResourceSlider = ({ data, categoryData, resourceData }) => {
                       )[0]
                     }
                     categoryData={categoryData}
-                    height="800px"
+                    height="400px"
                     dashboard={true}
                   />
                 </div>
