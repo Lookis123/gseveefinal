@@ -877,7 +877,7 @@ export const category_menus = [
     items: [
       {
         name: "Διεθνείς σχέσεις",
-        to: "/categories/international-relation",
+        to: "/categories/Διεθνείς-σχέσεις",
       },
       {
         name: "Κοινωνικός διάλογος",
