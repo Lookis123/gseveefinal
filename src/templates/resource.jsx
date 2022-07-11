@@ -115,7 +115,7 @@ const Resource = ({ data, location }) => {
           <BreadCrumb2>
             <BreadCrumb2Item>&#10094;</BreadCrumb2Item>
             <Link to="/resources">
-              <BreadCrumb2Item>Βίντεο</BreadCrumb2Item>
+              <BreadCrumb2Item>Βίντεοooooo</BreadCrumb2Item>
             </Link>
           </BreadCrumb2>
           <div className="row my-4">
