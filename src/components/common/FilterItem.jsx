@@ -116,7 +116,7 @@ export const FilterCheckItem = props => {
       <div className="d-flex">
         <checkitem>
           <svg
-            width="12"
+            width="40"
             height="9"
             viewBox="0 0 12 9"
             fill="none"
