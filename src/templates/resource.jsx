@@ -50,7 +50,7 @@ const TileWrapper = styled.div`
     & h4 {
       //styleName: H5/ Bold;
       font-family: CeraGR-Bold;
-      font-size: 20px;
+      font-size: 40px;
       line-height: 30px;
       letter-spacing: -0.02em;
       text-align: left;
