@@ -212,7 +212,7 @@ const CategoryPanel = ({
                       marginBottom: "16px",
                     }}
                   >
-                    <img src={icon.url} className="w-100 h-100" alt="" />
+                    <img src={icon.url} className="w-10 h-100" alt="" />
                   </div>
                   <Link to={`/category/${uid}`}>
                     <h4>{title}</h4>
