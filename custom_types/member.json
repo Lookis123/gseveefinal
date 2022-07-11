@@ -1,0 +1,34 @@
+{
+  "Main": {
+    "name": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading6",
+        "label": "Name",
+        "placeholder": "πχ. Ομοσπονδία Βιοτεχνικών Σωματείων Αθήνας"
+      }
+    },
+    "type": {
+      "type": "Select",
+      "config": {
+        "options": ["Τοπική", "Κλαδική"],
+        "default_value": "Τοπική",
+        "label": "Type"
+      }
+    },
+    "details": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "Details",
+        "placeholder": "πχ. Πατούσα 3, 106 77 Αθήνα, Τηλ.: 210 3809327 Fax: 210 3809327"
+      }
+    },
+    "location": {
+      "type": "GeoPoint",
+      "config": {
+        "label": "Location"
+      }
+    }
+  }
+}

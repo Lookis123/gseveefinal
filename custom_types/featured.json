@@ -1,0 +1,49 @@
+{
+  "Main": {
+    "is_video": {
+      "type": "Boolean",
+      "config": {
+        "default_value": false,
+        "label": "Is Video"
+      }
+    },
+    "hero_video": {
+      "type": "Embed",
+      "config": {
+        "label": "Hero Video"
+      }
+    },
+    "hero": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "hero_elements": {
+            "type": "Link",
+            "config": {
+              "select": "document",
+              "customtypes": ["resource"],
+              "label": "Hero Elements"
+            }
+          }
+        },
+        "label": "Hero"
+      }
+    },
+    "featured_resources": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "featured": {
+            "type": "Link",
+            "config": {
+              "select": "document",
+              "customtypes": ["resource"],
+              "label": "Featured"
+            }
+          }
+        },
+        "label": "Featured Resources"
+      }
+    }
+  }
+}

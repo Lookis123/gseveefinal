@@ -1,0 +1,96 @@
+// @import url("https://db.onlinewebfonts.com/c/4558c6eb729668842bb64330bcf6c748?family=CeraGR-Thin");
+// @import url("https://db.onlinewebfonts.com/c/4c23d1c747b7c11cecbcc0bc4ecbed1a?family=CeraGR-Light");
+// @import url("https://db.onlinewebfonts.com/c/b2654d24a0afc19dabe02fba17411648?family=CeraGR-Regular");
+// @import url("https://db.onlinewebfonts.com/c/508fb4f19c40b7c6a170913ad9a5de34?family=CeraGR-Medium");
+// @import url("https://db.onlinewebfonts.com/c/d191325cfe4f374d6f43147fd57ab2d4?family=CeraGR-Bold");
+// @import url("https://db.onlinewebfonts.com/c/d5029302cca7df63f92b945defedea3e?family=CeraGR-Black");
+// @import url("https://db.onlinewebfonts.com/c/d5029302cca7df63f92b945defedea3e?family=CeraGR-RegularItalic");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  color: $blue;
+}
+
+h1 {
+  font-family: "CeraGR-Bold";
+  font-size: 48px;
+  line-height: 56px;
+  @include mq("laptop", max) {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+.subject-title {
+  font-family: "CeraGR-Medium";
+  font-size: 48px;
+  line-height: 48px;
+  text-decoration-line: underline;
+}
+.page-subtitle {
+  font-family: "CeraGR-Bold";
+  font-size: 48px;
+  line-height: 40px;
+}
+h3 {
+  font-family: "CeraGR-Bold";
+  font-size: 40px;
+  line-height: 40px;
+}
+h4 {
+  font-family: "CeraGR-Bold";
+  font-size: 32px;
+  line-height: 40px;
+}
+h5 {
+  font-family: "CeraGR-Medium";
+  font-size: 20px;
+  line-height: 30px;
+}
+h6 {
+  //styleName: Titles/h6/regular;
+  font-family: CF Asty Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  @include mq("laptop", max) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+thumbnail {
+  //styleName: Thumbnails/regular;
+  font-family: CF Asty Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+p,
+span {
+  margin-bottom: 0;
+  font-family: "CeraGR-Regular";
+  font-size: 14px;
+  line-height: 22px;
+}
+
+details2 {
+  //styleName: Details / Bold;
+  font-family: CeraGR-Bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #002f6c;
+}

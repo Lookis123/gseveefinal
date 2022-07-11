@@ -1,0 +1,140 @@
+{
+  "Main": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "UID"
+      }
+    },
+    "resource_type": {
+      "type": "Select",
+      "config": {
+        "options": [
+          "Όλα",
+          "Δελτία Τύπου",
+          "Δημοσιεύσεις",
+          "Βίντεο",
+          "Podcast",
+          "Νέα Ανακοινώσεις",
+          "Γεγονότα"
+        ],
+        "default_value": "Όλα",
+        "label": "Τύπος Δημοσίευσης"
+      }
+    },
+    "category": {
+      "type": "Link",
+      "config": {
+        "select": "document",
+        "customtypes": ["category"],
+        "label": "Κύριo πεδίο δράσης",
+        "placeholder": "Κύριo πεδίο δράσης"
+      }
+    },
+    "categories": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "item": {
+            "type": "Link",
+            "config": {
+              "select": "document",
+              "customtypes": ["category"],
+              "label": "Category",
+              "placeholder": "Category"
+            }
+          }
+        },
+        "label": "Δευτερεύον Πεδίο/α Δράσης"
+      }
+    },
+    "title": {
+      "type": "Text",
+      "config": {
+        "label": "Τίτλος"
+      }
+    },
+    "subtitle": {
+      "type": "Text",
+      "config": {
+        "label": "Υπότιτλος"
+      }
+    },
+    "author": {
+      "type": "Text",
+      "config": {
+        "label": "Συγγραφέας",
+        "placeholder": "Συγγραφέας"
+      }
+    },
+    "event_starting_time": {
+      "type": "Timestamp",
+      "config": {
+        "label": "Χρόνος Έναρξης Εκδήλωσης",
+        "placeholder": "Χρόνος Έναρξης Εκδήλωσης"
+      }
+    },
+    "event_ending_time": {
+      "type": "Timestamp",
+      "config": {
+        "label": "Χρόνος Λήξης Εκδήλωσης",
+        "placeholder": "Χρόνος Λήξης Εκδήλωσης"
+      }
+    },
+    "resource_photo": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Εικόνα"
+      }
+    },
+    "rich_text": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "allowTargetBlank": true,
+        "label": "Κυρίως κείμενο"
+      }
+    },
+    "post_date": {
+      "type": "Date",
+      "config": {
+        "label": "Ημερομηνία δημοσίευσης"
+      }
+    },
+    "overlay_position": {
+      "type": "Select",
+      "config": {
+        "options": ["Right", "Middle", "Left"],
+        "default_value": "Right",
+        "label": "Τοποθέτηση γραφικού"
+      }
+    },
+    "group_of_subtags": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "subtag": {
+            "type": "Link",
+            "config": {
+              "select": "document",
+              "customtypes": ["subtag"],
+              "label": "Subtag",
+              "placeholder": "ex. Social Economy"
+            }
+          }
+        },
+        "label": "Tags"
+      }
+    },
+    "attachments": {
+      "type": "Link",
+      "config": {
+        "select": "media",
+        "label": "Επισυναπτόμενα",
+        "placeholder": "Επισυναπτόμενα"
+      }
+    }
+  }
+}

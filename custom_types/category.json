@@ -1,0 +1,94 @@
+{
+  "Main": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "UID"
+      }
+    },
+    "order": {
+      "type": "Number",
+      "config": {
+        "label": "Order",
+        "placeholder": "Category Order"
+      }
+    },
+    "icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Icon"
+      }
+    },
+    "title": {
+      "type": "Text",
+      "config": {
+        "label": "Title"
+      }
+    },
+    "description": {
+      "type": "Text",
+      "config": {
+        "label": "Thematic Category Intro Text"
+      }
+    },
+    "key_questioning_title": {
+      "type": "Text",
+      "config": {
+        "label": "Key Questioning Title",
+        "placeholder": "Key Questioning Title"
+      }
+    },
+    "key_questioning_description": {
+      "type": "Text",
+      "config": {
+        "label": "Key Questioning Description",
+        "placeholder": "Key Questioning Description"
+      }
+    },
+    "intervation_title": {
+      "type": "Text",
+      "config": {
+        "label": "Intervation Title",
+        "placeholder": "Intervation Title"
+      }
+    },
+    "intervation_description": {
+      "type": "Text",
+      "config": {
+        "label": "Intervation Description",
+        "placeholder": "Intervation Description"
+      }
+    },
+    "points": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "point": {
+            "type": "StructuredText",
+            "config": {
+              "multi": "paragraph,heading5,strong,hyperlink",
+              "label": "Point"
+            }
+          }
+        },
+        "label": "Points"
+      }
+    },
+    "color": {
+      "type": "Color",
+      "config": {
+        "label": "Color"
+      }
+    },
+    "overlay_img": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Overlay Image"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.search-field {
+  margin-left: 32px;
+
+  .search-input {
+    width: 250px;
+    padding: 5px 30px 5px 10px;
+    background-color: rgba(0, 24, 56, 0.6);
+    background-image: url("../images/icons/search.svg");
+    background-position: 95%;
+    background-repeat: no-repeat;
+    border: 1px solid #002f6c;
+    box-sizing: border-box;
+    box-shadow: 0px 14px 24px rgba(0, 47, 108, 0.07);
+    backdrop-filter: blur(9px);
+    border-radius: 6px;
+    color: white;
+    font-family: "CeraGR-Regular";
+    font-size: 12px;
+    line-height: 26px;
+    &::placeholder {
+      color: white;
+    }
+  }
+  @include mq("laptop", max) {
+    display: none;
+  }
+}
