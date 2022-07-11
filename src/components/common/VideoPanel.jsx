@@ -22,7 +22,7 @@ const VideoPlayButton = styled.button`
   transform: translateX(-50%) translateY(-50%);
 `
 const Image = styled.img`
-  width: 600px;
+  width: 100%;
   height: auto;
 `
 const openVideo = url => {}
@@ -31,7 +31,6 @@ export const SolidImagePanel = props => {
   const { photo } = props
   return (
     <VideoPanelContainer>
-      <Image src={photo} />
     </VideoPanelContainer>
   )
 }
