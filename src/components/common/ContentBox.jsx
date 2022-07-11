@@ -153,8 +153,8 @@ const ContentBox = props => {
           <GatsbyImage
             image={getImage(resourceData?.data.resource_photo)}
             alt="resource"
-            className="w-100"
-            width={"150%"}
+            className="w-50"
+            width={"50%"}
           />
         )}
       </ImageWrapper>
