@@ -242,7 +242,7 @@ const ResourceSlider = ({ data, categoryData, resourceData }) => {
                       )[0]
                     }
                     categoryData={categoryData}
-                    height="400px"
+                    height="800px"
                     dashboard={true}
                   />
                 </div>
