@@ -135,7 +135,7 @@ const Members = props => {
       <Seo title="Members" />
       <Section className="homehero-section">
         <Container className="container">
-          <h1>Δίκτυο μελών</h1>
+          <h1>Δίκτυο μελώosidosdoν</h1>
 
           <div className="content-header">
             <div className="user-types">
