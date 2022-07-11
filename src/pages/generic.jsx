@@ -115,8 +115,6 @@ const Generic = props => {
             </PopupContainer>
           </ListBox>
           <div className="container">
-            <div className="mw-auto">
-            <SolidImagePanel photo={SolidImage} /></div>
           </div>
           <div className="container">
             <h5 className="w-75 mx-auto">
