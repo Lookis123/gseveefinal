@@ -31,6 +31,7 @@ export const SolidImagePanel = props => {
   const { photo } = props
   return (
     <VideoPanelContainer>
+      <Image src={photo} />
     </VideoPanelContainer>
   )
 }
@@ -38,7 +39,6 @@ const VideoPanel = props => {
   const { photo, url } = props
   return (
     <VideoPanelContainer>
-      <Image src={photo} />
       {url ? (
         <VideoPlayButton onClick={() => openVideo(url)}>
           <img src={VideoPlay} alt="" />
