@@ -4,8 +4,8 @@ import styled from "styled-components"
 const TextContainerWrapper = styled.p`
   //styleName: Paragraph;
   font-family: "CeraGR-Regular";
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 10px;
+  line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
   padding: 16px 0;
