@@ -6,7 +6,7 @@ const Wrapper = styled.div`
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
-  border-radius: 0 0 4px 4px;
+  border-radius: 4px 4px 4px 4px;
   .card-image {
     position: absolute;
     z-index: 1;
