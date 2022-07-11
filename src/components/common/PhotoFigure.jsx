@@ -3,7 +3,7 @@ import { down } from "styled-breakpoints"
 import styled from "styled-components"
 
 const Image = styled.img`
-  width: 100%;
+  width: 15%;
   height: auto;
   padding: 0 8px;
   padding-bottom: 12px;
