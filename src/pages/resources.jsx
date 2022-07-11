@@ -77,7 +77,7 @@ const ResourcesPage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Seo ="Resources Page" />
+      <Seo title="Resources Page" />
       <Section className="intro-section">
         <Navbar type="second" />
         <HeaderContainer className="container">
