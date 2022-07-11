@@ -224,7 +224,7 @@ export const ContentBox2 = props => {
         {...rest}
         width={width ? width : "500px"}
       >
-         <img className="w-100" src={resourceData.resource_photo} alt="resource" /> 
+        {/*} <img className="w-100" src={resourceData.resource_photo} alt="resource" /> */}
         <GatsbyImage
           position={resourceData?.data.overlay_position}
           type={resourceData?.data.category.id}
