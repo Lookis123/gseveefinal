@@ -88,7 +88,6 @@ const CategoryTab = () => {
                 <img src={item.data.icon.url} alt="category icon" />
               </div>
               <div className="category-title">
-                <Link to={`/category/${item.uid}`}>{item.data.title}</Link>
               </div>
             </CategoryItem>
           ))}
