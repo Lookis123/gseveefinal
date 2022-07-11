@@ -50,7 +50,7 @@ const TileWrapper = styled.div`
     & h4 {
       //styleName: H5/ Bold;
       font-family: CeraGR-Bold;
-      font-size: 30px;
+      font-size: 16px;
       line-height: 30px;
       letter-spacing: -0.02em;
       text-align: left;
@@ -121,7 +121,7 @@ const Resource = ({ data, location }) => {
           <div className="row my-4">
             <span>{post_date}</span>
           </div>
-          <h4 className="mb-5">{title}</h4>
+          <h4 className="mb-2">{title}</h4>
           <h5 className="mb-5">{subtitle}</h5>
           {event_ending_time !== null && event_starting_time !== null && (
             <Period>{`${event_starting_time} - ${event_ending_time}`}</Period>
