@@ -74,12 +74,8 @@ h6 {
   order:0;
   display:flex;
   @include mq("laptop", max) {
-    font-size: 18px;
-    line-height: 30px;
-    letter-spacing: -0.02em;
-    align-items: left;
-    flex-grow:0;
-    order:0;
+    font-size: 58px;
+    line-height: 24px;
   }
 }
 thumbnail {
