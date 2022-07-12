@@ -46,6 +46,11 @@ h4 {
   font-family: "CeraGR-Bold";
   font-size: 32px;
   line-height: 40px;
+  letter-spacing: -0.02em;
+  flex: none;
+  order:0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 h5 {
   font-family: "CeraGR-Medium";
