@@ -49,7 +49,7 @@ h4 {
 }
 h5 {
   font-family: "CeraGR-Medium";
-  font-size: 30px;
+  font-size: 20px;
   line-height: 30px;
 }
 h6 {
@@ -91,6 +91,9 @@ details2 {
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0em;
-  text-align: left;
+  align-self: stretch;
+  flex-grow: 0;
+  order:1;
+  flex:none;
   color: #002f6c;
 }
