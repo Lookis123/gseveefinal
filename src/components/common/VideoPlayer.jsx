@@ -5,7 +5,7 @@ import styled from "styled-components"
 const PlayerBox = styled.div`
   text-align: center;
   iframe {
-    border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 4px 4px;
     ${down("lg")} {
       margin-top: 40px;
     }
