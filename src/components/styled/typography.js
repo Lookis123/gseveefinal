@@ -60,7 +60,7 @@ const typoAssets = {
   quote: {
     component: "p",
     family: "CeraGR-RegularItalic",
-    size: 24,
+    size: 50,
     height: 30,
   },
   detail_bold: {
