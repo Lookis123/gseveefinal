@@ -4,10 +4,13 @@ import styled from "styled-components"
 const TextContainerWrapper = styled.p`
   //styleName: Paragraph;
   font-family: "CeraGR-Regular";
-  font-size: 10px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 26px;
   letter-spacing: 0em;
-  text-align: left;
+  flex: none;
+  flex-grow: 0
+  order: 1;
+  align-self: stretch;
   padding: 16px 0;
 `
 const QuoteContainerWrapper = styled.h2`
