@@ -58,6 +58,9 @@ h5 {
   line-height: 30px;
   align-items: center;
   display:flex;
+  flex:none;
+  order:0;
+  flex-grow:0;
 }
 h6 {
   //styleName: Titles/h6/regular;
