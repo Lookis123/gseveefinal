@@ -172,7 +172,7 @@ const Generic = props => {
 
                 <QuoteContainer>
                   Εξακολουθούμε να τιμάμε τους νεκρούς του Πολυτεχνείου, τη
-                  μνήμη τους και την προσφορά τους στην Δημοκρατία
+                  μνήμη τους και την προσφορά τους στην Δημοκρατία kai ton mitsotaki
                 </QuoteContainer>
               </div>
               <div className="mt-2 mb-5">
